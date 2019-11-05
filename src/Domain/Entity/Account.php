@@ -11,5 +11,5 @@
  * Class Account
  * @category PHP 
  */
-class Account
+class Account extends AbstractEntity
 { }
