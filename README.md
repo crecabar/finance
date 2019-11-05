@@ -1,2 +1,2 @@
-# finance
-PHP application for manage personal finance
+# Personal Finance Manager
+PHP application for manage personal finance, assets and liabilities.
