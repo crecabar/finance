@@ -1,7 +1,8 @@
 {
     "name": "srpeaton/perfin",
     "type": "application",
-    "description": "PHP application for help people to manage their personal finances, assets and liabilities.",
+    "description": "PHP Personal Finances Manager is an application for help people to manage their personal finances, assets and liabilities.",
+    "version": "1.0.0",
     "license": "MIT License",
     "authors": [
         {
