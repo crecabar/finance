@@ -14,8 +14,13 @@
 namespace Test\PerFin\Domain\Entity;
 
 use PHPUnit\Framework\TestCase;
-use SrPeaton\Domain\Entity\Transaction;
+use SrPeaton\PerFin\Domain\Entity\Transaction;
 
 class TransactionTest extends TestCase
 {
+    public function testTrue()
+    {
+        $transaction = new Transaction();
+        $this->assertTrue(true);  
+    }
 }
