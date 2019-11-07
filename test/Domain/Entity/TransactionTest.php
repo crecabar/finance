@@ -21,6 +21,6 @@ class TransactionTest extends TestCase
     public function testTrue()
     {
         $transaction = new Transaction();
-        $this->assertTrue(true);  
+        $this->assertTrue(true);
     }
 }
