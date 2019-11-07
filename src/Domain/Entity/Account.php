@@ -12,4 +12,17 @@
  * @category PHP 
  */
 class Account extends AbstractEntity
-{ }
+{
+    private $accountType;
+
+    public function getAccountTyoe()
+    {
+        return $this->accountType;
+    }
+
+    public function setAccountType(AccountType $accountType)
+    {
+        $this->accountType = $accountType;
+        return $this;
+    }
+}

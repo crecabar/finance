@@ -18,7 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "SrPeaton\\PerFin\\": ["src/"]
+            "SrPeaton\\PerFin\\": ["src/"],
+            "Test\\PerFin\\": ["test/"]
         }
     }
 }
