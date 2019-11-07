@@ -1,7 +1,7 @@
 <?php
 /**
  * File Transaction.php
- * 
+ *
  * PHP version 7
  */
 
@@ -9,11 +9,11 @@
 
 /**
  * Class Transaction
- * This class represents a single transaction between accounts belonging to a 
+ * This class represents a single transaction between accounts belonging to a
  * person, or from an account belonging to a person to an account belonging
  * to a different entity.
- * 
- * @category PHP 
+ *
+ * @category PHP
  */
 class Transaction extends AbstractEntity
 {
@@ -49,8 +49,8 @@ class Transaction extends AbstractEntity
 
     /**
      * @param float $amount
-     * 
-     * 
+     *
+     *
      */
     public function setAmount(float $amount = 0.0)
     {

@@ -1,15 +1,16 @@
 <?php
 /**
  * File User.php
- * 
+ *
  * PHP version 7
  */
 
- namespace SrPeaton\PerFin\Domain\Entity;
+namespace SrPeaton\PerFin\Domain\Entity;
 
 /**
  * Class User
- * @category PHP 
+ * @category PHP
  */
 class User extends AbstractEntity
-{ }
+{
+}

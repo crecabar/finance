@@ -1,7 +1,7 @@
 <?php
 /**
  * File AbstractEntity.php
- * 
+ *
  * PHP version 7
  */
 
@@ -9,7 +9,7 @@
 
 /**
  * Class AbstractEntity
- * 
+ *
  * @category PHP
  */
 abstract class AbstractEntity
