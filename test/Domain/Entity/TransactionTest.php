@@ -14,6 +14,7 @@
 namespace Test\PerFin\Domain\Entity;
 
 use PHPUnit\Framework\TestCase;
+use SrPeaton\Domain\Entity\Transaction;
 
 class TransactionTest extends TestCase
 {
