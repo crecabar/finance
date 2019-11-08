@@ -1,27 +1,27 @@
 <?php
 /**
- * File Asset.php
+ * File UserFactory.php
  *
  * PHP version 7
  *
  * @category PHP
- * @package  SrPeaton\PerFin\Domain\Entity
+ * @package  SrPeaton\PerFin\Domain\Factory
  * @author   Cristian Recabarren <cristian.recabarren@srpeaton.cl>
  * @license  MIT https://opensource.org/licenses/MIT
  * @link     https://www.srpeaton.cl
  */
 
-namespace SrPeaton\PerFin\Domain\Entity;
+namespace SrPeaton\PerFin\Domain\Factory;
 
 /**
- * Class Asset
+ * Class UserFactory
  *
  * @category PHP
- * @package  SrPeaton\PerFin\Domain\Entity
+ * @package  SrPeaton\PerFin\Domain\Factory
  * @author   Cristian Recabarren <cristian.recabarren@srpeaton.cl>
  * @license  MIT https://opensource.org/licenses/MIT
  * @link     https://www.srpeaton.cl
  */
-class Asset extends AbstractEntity
+class UserFactory
 {
 }

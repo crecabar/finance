@@ -1,27 +1,30 @@
 {
-    "name": "srpeaton/perfin",
-    "type": "application",
-    "description": "PHP Personal Finances Manager is an application for help people to manage their personal finances, assets and liabilities.",
-    "version": "1.0.0",
-    "license": "MIT License",
-    "authors": [
-        {
-            "name": "Cristian Recabarren",
-            "email": "cristian.recabarren@srpeaton.cl"
-        }
-    ],
-    "require": {
-        "php": ">=7.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8",
-        "phpunit/php-code-coverage": "^7",
-        "squizlabs/php_codesniffer": "2.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "SrPeaton\\PerFin\\": ["src/"],
-            "Test\\PerFin\\": ["test/"]
-        }
+  "name": "srpeaton/perfin",
+  "type": "application",
+  "description": "PHP Personal Finances Manager is an application for help people to manage their personal finances, assets and liabilities.",
+  "version": "1.0.0",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Cristian Recabarren",
+      "email": "cristian.recabarren@srpeaton.cl"
     }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8",
+    "phpunit/php-code-coverage": "^7",
+    "squizlabs/php_codesniffer": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SrPeaton\\PerFin\\": ["src/"],
+      "Test\\PerFin\\": ["test/"]
+    }
+  },
+  "scripts": {
+    "phpcs": "vendor/bin/phpcs --report-width=200 --report-summary  --report-full src/ test/ --standard=PSR2 -n"
+  }
 }
